@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pins
   devise_for :users # Creates all routes used by devise
   root 'pages#home'
   get 'about' => 'pages#about' # Creates about_path
