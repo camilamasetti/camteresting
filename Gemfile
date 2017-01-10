@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 # ~> means anything greater than
+ruby '2.3.1' # definition of ruby version
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
